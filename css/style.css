@@ -1,0 +1,208 @@
+body {
+    font-size: 18px;
+    color: #6c767d;
+    background-color: #ebf1f5;
+    background-image: url(https://api.bwmc.live/api/);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 800px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: .5em;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 1em;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h1,h2,h3,h4 {
+    color: black;
+}
+
+.card {
+    border: none;
+    padding: 80px 80px 0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.my-card {
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 5px rgb(32, 32, 32);
+}
+
+
+.btn {
+    border-radius: 5px;
+    margin: 5px 0;
+    width: 30%;
+    height: 50px;
+    padding: 12px;
+    transition: ease;
+}
+
+.btn1 {
+    padding: 12px;
+    transition: ease;
+    border: none;
+    background:#8ee5ff;
+    margin-left:15px;
+}
+
+.btn1:hover {
+    box-shadow: 5px -2px 15px 0px rgb(203, 221, 232);
+}
+
+.btn2 {
+    padding: 12px ;
+    transition: ease;
+    border: none;
+    background:rgb(230, 230, 230);
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.btn2:hover {
+    box-shadow: 5px -2px 15px 0px rgb(203, 221, 232);
+}
+
+.btn3 {
+    padding: 12px;
+    transition: ease;
+    border: none;
+    background:#ff89f1;
+}
+
+.btn3:hover {
+    box-shadow: 5px -2px 15px 0px rgb(203, 221, 232);
+}
+
+.social {
+    padding-left: 0;
+}
+
+.social p {
+    margin-bottom: 0;
+}
+
+.social li {
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+}
+
+.card-text {
+    margin-bottom: 20px;
+}
+
+.social .fa {
+    font-size: 24px;
+}
+
+.photo-bg {
+    background-image: url(https://cdn.kusu.moe/image/Kusuchan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+@media (max-width: 1199px) {
+    body {
+        min-height: 600px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2,
+    .social .fa {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h4,
+    p {
+        font-size: 14px;
+    }
+    .card {
+        padding: 50px 50px 0px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .photo-bg {
+        min-height: calc(100vh - 500px);
+    }
+}
+
+@media(max-width:991px) {
+    .photo-bg {
+        background-position: top;
+        min-height: calc(90vh - 440px);
+    }
+}
+
+@media(max-width: 767px) {
+    .container {
+        position: relative;
+        top: 0;
+        transform: translateY(0);
+    }
+    .photo-bg {
+        height: 180px;
+    }
+    .card {
+        padding: 20px;
+    }
+    #BWMC-blog-a,
+    #BWMC-mail-a {
+        display: block;
+    }
+    #BWMC-blog,
+    #BWMC-mail {
+        display: none;
+    }
+}
+
+#frame {
+    width: 50%;
+    height: 50vh;
+    margin: 0;
+    background: #fff;
+    position: fixed;
+    z-index: 999;
+    top: 5%;
+    left: 5%;
+}
+
+#aplayer {
+    z-index: 20000000;
+}
